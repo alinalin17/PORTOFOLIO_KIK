@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mina Vale is a multidisciplinary designer and front-end maker." />
+  <title>Mina Vale | Scrapbook Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260908-fullscreen" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="paper-scrap paper-scrap--top" aria-hidden="true"></div>
+      <div class="hero__topline">
+        <span class="tiny-label">ALIN</span>
+        <span class="tiny-label">XI PPLG 3</span>
+      </div>
+      <div class="hero__portrait-wrap">
+        <div class="tape tape--portrait" aria-hidden="true"></div>
+        <div class="portrait-card">
+        <div class="portrait-art">
+        <img src="aset/alin.jpeg" alt="Foto Alin">
+        </div>
+          <span class="portrait-card__caption">hello, i'm alin</span>
+        </div>
+        <span class="sticker sticker--star" aria-hidden="true">✦</span>
+        <span class="sticker sticker--apple" aria-hidden="true">🍎</span>
+      </div>
+      <div class="hero__copy">
+        <p class="eyebrow">designer · developer · creative mind</p>
+        <h1 id="intro-title">Turning little<br /><em>ideas into</em> something<br />worth feeling.</h1>
+        <p class="hero__lede">Because sometimes, the smallest ideas can become something meaningful.</p>
+        <a class="scroll-cue" href="#work"><span>↓</span> explore my little world</a>
+      </div>
+      <div class="doodle doodle--cherries" aria-hidden="true">•<span>♥</span>•<span>♥</span></div>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div>
+          <span class="tiny-label">my recent work</span>
+          <h2 id="work-title">A few things<br /><em>I've made.</em></h2>
+        </div>
+        <span class="scribble-arrow" aria-hidden="true">↗</span>
+      </div>
+      <div class="project-grid">
+  <article class="project-card project-card--wide">
+    <div class="project-image">
+      <img src="./aset/bunga.jpeg" alt="Project Matcha Club">
+    </div>
+    <div class="project-meta">
+      <span>01 / a flower</span>
+      <strong>Lumalin</strong>
+    </div>
+  </article>
+  <article class="project-card project-card--tilt">
+    <div class="project-image">
+      <img src="./aset/projek.png" alt="Project Late Night FM">
+    </div>
+    <div class="project-meta">
+      <span>02 / projek experience</span>
+      <strong>Figma</strong>
+    </div>
+  </article>
+  <article class="project-card project-card--sage">
+    <div class="project-image">
+      <img src="./aset/coding.jpeg" alt="Project Little Garden">
+    </div>
+    <div class="project-meta">
+      <span>03 / Coding</span>
+      <strong>Visual Studio Code</strong>
+    </div>
+  </article>
+</div>
+      <button class="sticker-button sticker-button--projects" data-modal="projects-modal" type="button">view all projects <span>↗</span></button>
+    </section>
+
+    <section class="note-section" aria-label="Personal note">
+      <div class="note-paper">
+        <span class="pin" aria-hidden="true"></span>
+        <span class="note-date">dear little things,</span>
+        <p>I like creating little things that let my imagination take the lead.</p>
+        <span class="note-signoff">— alin ♡</span>
+      </div>
+      <div class="note-stamp" aria-hidden="true">made<br />with<br />love</div>
+    </section>
+
+    <footer class="footer">
+      <span>© 2026 Alin World</span>
+      <span class="footer__heart">♥</span>
+      <span>made somewhere sunny</span>
+    </footer>
+  </main>
+
+  <nav class="sticker-nav" aria-label="Portfolio navigation">
+    <button class="nav-item nav-item--projects" data-modal="projects-modal" type="button"><span class="nav-icon">▦</span><span>projects</span></button>
+    <button class="nav-item nav-item--about" data-modal="about-modal" type="button"><span class="nav-icon">☻</span><span>about me</span></button>
+    <button class="nav-item nav-item--services" data-modal="services-modal" type="button"><span class="nav-icon">✿</span><span>services</span></button>
+    <button class="nav-item nav-item--contact" data-modal="contact-modal" type="button"><span class="nav-icon">✉</span><span>contact</span></button>
+  </nav>
+
+  <div class="modal" id="projects-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="projects-modal-title">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__window modal__window--projects">
+      <button class="modal__close" data-close-modal type="button" aria-label="Close projects">×</button>
+      <span class="tiny-label">the archive / 2024—26</span>
+      <h2 id="projects-modal-title">More little worlds.</h2>
+      <div class="archive-list"><div><span>04</span><strong>Make up</strong><em>beauty • creative makeup</em></div><div><span>05</span><strong>Hair do</strong><em>styling • hair creativity</em></div><div><span>06</span><strong>Drawing diary</strong><em>sketches • illustration</em></div></div>
+    </div>
+  </div>
+
+  <div class="modal" id="about-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="about-modal-title">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__window modal__window--note">
+      <button class="modal__close" data-close-modal type="button" aria-label="Close about">×</button>
+      <span class="note-date">a note about me</span>
+      <h2 id="about-modal-title">Hi, I'm Alin.</h2>
+      <p>I'm a student who enjoys exploring creative things, from make up and hair styling to drawing. I like trying new ideas, creating little details, and turning simple things into something I can be proud of.</p>
+      <div class="interest-tags"><span>💄 make up</span><span>🌸 gardening</span><span>🎨 drawing</span></div>
+    </div>
+  </div>
+
+  <div class="modal" id="services-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="services-modal-title">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__window modal__window--services">
+      <button class="modal__close" data-close-modal type="button" aria-label="Close services">×</button>
+      <span class="tiny-label">what i can do</span>
+      <h2 id="services-modal-title">Good ideas,<br /><em>made real.</em></h2>
+      <div class="service-list"><div><b>01</b><span>Brand identities</span></div><div><b>02</b><span>Web design + build</span></div><div><b>03</b><span>Creative direction</span></div><div><b>04</b><span>Art direction</span></div></div>
+    </div>
+  </div>
+
+  <div class="modal" id="contact-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__window modal__window--contact">
+      <button class="modal__close" data-close-modal type="button" aria-label="Close contact">×</button>
+      <span class="tiny-label">say hello</span>
+      <h2 id="contact-modal-title">Let's make<br /><em>something lovely.</em></h2>
+      <form class="contact-form" id="contact-form"><label>Name<input name="name" required placeholder="your name" /></label><label>Email<input name="email" type="email" required placeholder="you@email.com" /></label><label>Note<textarea name="message" rows="3" required placeholder="tell me a little something..."></textarea></label><button class="submit-button" type="submit">send it off <span>→</span></button></form>
+      <div class="social-links"><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:hello@minavale.design">Email ↗</a></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
